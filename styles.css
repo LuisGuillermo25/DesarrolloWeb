@@ -173,3 +173,23 @@ footer .social-links a {
         width: 100%;
     }
 }
+
+.footer-content {
+    text-align: center; /* Centra el contenido del footer */
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+}
+
+.footer-content p {
+    margin-bottom: 10px; /* Espacio entre el texto y los íconos */
+}
+
+.footer-content a i {
+    font-size: 24px; /* Tamaño de los íconos */
+    margin: 0 10px; /* Espacio entre los íconos */
+    color: #0e8d96; /* Color de los íconos */
+    transition: color 0.3s ease; /* Transición suave al cambiar el color */
+}
+
+.footer-content a i:hover {
+    color: #da108c; /* Cambia el color al pasar el mouse */
+}
